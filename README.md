@@ -33,7 +33,9 @@ Amazon Price Tracker is a JavaFX-based application developed for a university ad
 
 ## 📂 Project Contents
 
-- `AmazonPriceTracker/src` — Source code for the JavaFX application and server
+- `AmazonPriceTracker/src/` — Source code for the main JavaFX application  
+- `AmazonPriceTracker/paapi5-java-sdk/` — Amazon Product Advertising API SDK  
+- `ServerLog/src/` — Source code for the dedicated logging server  
 - `programmazioneAvanzataSQL.sql` — XML and XSD files for configuration and validation
 - `progrmmazione Avanzata documento+uml.pdf` — Documentation and diagrams
 
