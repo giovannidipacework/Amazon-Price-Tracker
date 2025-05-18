@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ConfigurazioneXML">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element type="xs:string" name="ipServerLog"/>
+        <xs:element type="xs:short" name="portaServerLog"/>
+        <xs:element type="xs:string" name="ipDBMS"/>
+        <xs:element type="xs:short" name="portaDBMS"/>
+        <xs:element type="xs:string" name="nomeDBMS"/>
+        <xs:element type="xs:string" name="userDBMS"/>
+        <xs:element type="xs:string" name="passwordDBMS"/>
+        <xs:element type="xs:string" name="font"/>
+        <xs:element type="xs:integer" name="dimensioneFont"/>
+        <xs:element type="xs:string" name="coloreFont"/>
+        <xs:element type="xs:string" name="coloreBackground"/>
+        <xs:element type="xs:integer" name="numeroRigheTabellaOggettiTracciati"/>
+        <xs:element type="xs:integer" name="intervalloGiorniAggiornamentoStoricoPrezzi"/>
+        <xs:element type="xs:integer" name="intervalloGiorniDatepicker"/>
+        <xs:element type="xs:string" name="AccessKey"/>
+        <xs:element type="xs:string" name="SecretKey"/>
+        <xs:element type="xs:string" name="PartnerTag"/>
+        <xs:element type="xs:string" name="Host"/>
+        <xs:element type="xs:string" name="Region"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

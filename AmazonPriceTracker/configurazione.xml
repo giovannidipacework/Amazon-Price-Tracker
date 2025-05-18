@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigurazioneXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ipServerLog>localhost</ipServerLog>
+	<portaServerLog>8080</portaServerLog>
+
+	<ipDBMS>localhost</ipDBMS>
+	<portaDBMS>3306</portaDBMS>
+	<nomeDBMS>amazon_price_tracker</nomeDBMS>
+	<userDBMS>root</userDBMS>
+	<passwordDBMS></passwordDBMS>
+
+	<font>Arial</font>
+	<dimensioneFont>14</dimensioneFont>
+	<coloreFont>black</coloreFont>
+	<coloreBackground>white</coloreBackground>
+	<numeroRigheTabellaOggettiTracciati>1</numeroRigheTabellaOggettiTracciati>
+
+	<intervalloGiorniAggiornamentoStoricoPrezzi>10</intervalloGiorniAggiornamentoStoricoPrezzi>
+	<intervalloGiorniDatepicker>31</intervalloGiorniDatepicker>
+
+	<AccessKey></AccessKey>
+	<SecretKey></SecretKey>
+	<PartnerTag></PartnerTag>
+	<Host>webservices.amazon.it</Host>
+	<Region>eu-west-1</Region>s
+</ConfigurazioneXML> 
