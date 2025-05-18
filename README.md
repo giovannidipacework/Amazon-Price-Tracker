@@ -1,6 +1,6 @@
 # Amazon Price Tracker
 
-Amazon Price Tracker is a JavaFX-based application developed for a university advanced programming course. It provides a user-friendly interface to monitor and record price fluctuations of Amazon products over time. Users can locate items either by manual keyword search or by entering the ASIN code, leveraging the Amazon API for real-time data retrieval.
+**Amazon Price Tracker** is a desktop application developed for an advanced programming course. It allows users to monitor price changes of Amazon products. Users can search products manually or by ASIN code using Amazon's API, view detailed product information, and receive notifications about price changes.
 
 ---
 
@@ -9,6 +9,9 @@ Amazon Price Tracker is a JavaFX-based application developed for a university ad
 - **Product Tracking**  
   - Search products manually or by ASIN code using the Amazon API.  
   - Track price changes over time.
+
+- **Detailed View**  
+  - Displays detailed product info including price, availability, and description.
 
 - **Data Management**  
   - Product and user data stored in a SQL database.  
@@ -24,10 +27,11 @@ Amazon Price Tracker is a JavaFX-based application developed for a university ad
 
 ## 📊 Technologies
 
+- Java
 - JavaFX for GUI
-- SQL Server for data persistence
+- MySQL Server for data persistence
 - XML/XSD for configuration and validation
-- Amazon API integration
+- Amazon Product Advertising API integration
 
 ---
 
